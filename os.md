@@ -27,7 +27,7 @@
     | 9 | `SIGKILL(KILL)` | process 강제 종료 | 종료 |
     | 11 | `SIGSEGV(SEGV)` | invalid memory reference | 종료 + 코어 덤프 |
     | 13 | `SIGPIPE(PIPE)` | 절단된 network socket 등에 데이터를 쓰려고 했을 때 발생 | 종료 |
-    | 15 | `SIGTERM(TERM)` | *terminate*의 약어<br />정상 종료시키는 signal<br />kill 명령의 기본 signal | 종료 |
+    | 15 | `SIGTERM(TERM)` | *terminate*의 약어<br />정상 종료를 위한 signal<br />kill 명령의 기본 signal | 종료 |
     | 17 | `SIGCHLD(CHLD)` | 자식 process가 stop되거나 종료되었을 때 부모 process에게 전달되는 signal | 무시 |
     | 18 | `SIGCONT(CONT)` | *continue*의 약어<br />SIGSTOP에 의해 정지된 process를 재실행 | 재시작 |
     | 19 | `SIGSTOP(STOP)` | 터미널에서 입력된 정지 signal<br />SIGCONT로 재실행 가능 | 중지 |
