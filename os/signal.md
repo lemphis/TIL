@@ -1,6 +1,5 @@
-# Operating System
+# Signal
 
-## Signal
 - signal이란?
   - 사전적인 뜻은 '신호'라는 의미로 linux에서는 process끼리 서로 통신할 때 사용
   - UNIX, UNIX 계열, POSIX 호환 운영 체제에 쓰이는 제한된 형태의 프로세스 간 통신

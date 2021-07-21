@@ -1,6 +1,5 @@
-# JWT(Json Web Token)
+# JWT 구조
 
-## JWT 구조
 <details>
     <summary>header</summary>
     <ul>
@@ -42,14 +41,14 @@
         <ul>
             <li>충돌이 방지된(collision-resistant) 이름을 가지고 있어야 함</li>
             <li>위 조건을 만족하기 위해 claim 이름을 URI 형식으로 작명</li>
-            <li>ex) { "https://velopert.com/jwt_claims/is_admin": true }</li>
+            <li>e.g. { "https://lemphis.com/jwt_claims/is_admin": true }</li>
         </ul>
         <li>private clain</li>
         <ul>
             <li>양 측간에(client <-> server) 협의하에 사용되는 claim</li>
             <li>registered claim의 사용은 optional</li>
             <li>충돌 가능성이 있으니 사용 시에 유의</li>
-            <li>ex) { "username": "velopert" }</li>
+            <li>e.g. { "username": "lemphis" }</li>
         </ul>
     </ul>
 </details>
@@ -60,3 +59,5 @@
         <li>base64 encoding이나 SHA256 등의 hashing은 보통 JWT library가 처리함</li>
     </ul>
 </details>
+
+> cf. https://jwt.io/introduction

@@ -1,6 +1,5 @@
-# JAVA
+# equals & hashCode
 
-## equals() & hashCode()
 - equals
   - 두 객체의 내용이 같은지 확인하는 method
   - Value Object의 비교를 하려면 equals() override 필요
