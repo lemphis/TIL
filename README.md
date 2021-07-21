@@ -6,13 +6,11 @@
 
 ### Categories
 
-- [TIL](#til)
-    - [Categories](#categories)
-    - [git](#git)
-    - [https](#https)
-    - [java](#java)
-    - [jwt](#jwt)
-    - [os](#os)
+- [git](#git)
+- [https](#https)
+- [java](#java)
+- [jwt](#jwt)
+- [os](#os)
 
 ---
 
