@@ -5,6 +5,7 @@
 ---
 
 ### Categories
+
 - [git](#git)
 - [https](#https)
 - [java](#java)
@@ -14,19 +15,24 @@
 ---
 
 ### git
+
 - [comparing-workflows](/git/comparing-workflows.md)
 - [tag](/git/tag.md)
 
 ### https
+
 - [http-and-https](/https/http-and-https.md)
 - [ssl-handshake](/https/ssl-handshake.md)
 
 ### java
+
 - [equls-and-hashcode](/java/equls-and-hashcode.md)
 - [string-concat](/java/string-concat.md)
 
 ### jwt
+
 - [jwt-structure](/jwt/jwt-structure.md)
 
 ### os
+
 - [signal](/os/signal.md)

@@ -33,4 +33,4 @@
       - git을 처음 사용하는 사람의 경우 workflow를 이해하기가 다른 flow보다 상대적으로 어려움
       - 작업 상황을 자주(짧은 주기로) 리뷰하기가 쉽지 않음(통일된 관리가 어려움)
 
-> cf. https://www.atlassian.com/git/tutorials/comparing-workflows
+> cf. <https://www.atlassian.com/git/tutorials/comparing-workflows>

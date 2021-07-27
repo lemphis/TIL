@@ -1,7 +1,8 @@
-# Java에서 String끼리 덧셈 시 최적화
+# Java에서 + 연산으로 문자열 붙일 시 최적화
 
 Java 1.5 이상의 version에서는 + 연산으로 문자열을 붙여도 StringBuilder를 사용하는 바이트 코드로 변경됨
 한 줄에서 + 연산으로 string literal을 붙이면 모두 합쳐진 문자열로 컴파일러가 최적화함
+
 ```java
 // 기존 코드
 String s = "a" + "b" + "c";
@@ -10,6 +11,7 @@ String s = "abc";
 ```
 
 ### 기존 코드
+
 ```java
 public class StringTest {
     public static void main(String[] args) {
@@ -28,6 +30,7 @@ public class StringTest {
 ```
 
 ### JDK 1.4로 complie
+
 ```java
 public class StringTest {
 
@@ -52,6 +55,7 @@ public class StringTest {
 ```
 
 ### JDK 1.5로 complie
+
 ```java
 public class StringTest {
 
