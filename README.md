@@ -43,6 +43,7 @@
 ## spring
 
 - [spring-aop](/spring/spring-aop.md)
+- [bean-scope](/spring/bean-scope.md)
 
 ## spring-security
 
