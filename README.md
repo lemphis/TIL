@@ -46,3 +46,4 @@
 ### spring-security-oauth2
 
 - [common-oauth2-provider](/spring-security-oauth2/common-oauth2-provider.md)
+- [oauth2-client-auto-configuration](/spring-security-oauth2/oauth2-client-auto-configuration.md)
