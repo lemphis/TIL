@@ -11,6 +11,8 @@
 - [java](#java)
 - [jwt](#jwt)
 - [os](#os)
+- [spring-security](#spring-security)
+- [spring-security-oauth2](#spring-security-oauth2)
 
 ---
 
@@ -40,3 +42,7 @@
 ### spring-security
 
 - [spring-security-architecture](/spring-security/spring-security-architecture.md)
+
+### spring-security-oauth2
+
+- [common-oauth2-provider](/spring-security-oauth2/common-oauth2-provider.md)
