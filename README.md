@@ -48,6 +48,7 @@
 ## spring-security
 
 - [spring-security-architecture](/spring-security/spring-security-architecture.md)
+- [security-context-holder](/spring-security/security-context-holder.md)
 
 ## spring-security-oauth2
 
