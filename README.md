@@ -6,14 +6,17 @@
 
 ## Categories
 
-- [git](#git)
-- [https](#https)
-- [java](#java)
-- [jwt](#jwt)
-- [os](#os)
-- [spring](#spring)
-- [spring-security](#spring-security)
-- [spring-security-oauth2](#spring-security-oauth2)
+- [TIL](#til)
+  - [Categories](#categories)
+  - [git](#git)
+  - [https](#https)
+  - [java](#java)
+  - [jwt](#jwt)
+  - [os](#os)
+  - [spring](#spring)
+  - [spring-security](#spring-security)
+  - [spring-security-oauth2](#spring-security-oauth2)
+  - [algorithm](#algorithm)
 
 ---
 
@@ -55,3 +58,7 @@
 
 - [common-oauth2-provider](/spring-security-oauth2/common-oauth2-provider.md)
 - [oauth2-client-auto-configuration](/spring-security-oauth2/oauth2-client-auto-configuration.md)
+
+## algorithm
+
+- [selection-sort](/algorithm/selection-sort.md)
