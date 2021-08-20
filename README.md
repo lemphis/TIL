@@ -63,3 +63,4 @@
 
 - [selection-sort](/algorithm/selection-sort.md)
 - [insertion-sort](/algorithm/insertion-sort.md)
+- [bubble-sort](/algorithm/bubble-sort.md)
