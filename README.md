@@ -62,3 +62,4 @@
 ## algorithm
 
 - [selection-sort](/algorithm/selection-sort.md)
+- [insertion-sort](/algorithm/insertion-sort.md)
