@@ -64,3 +64,7 @@
 - [selection-sort](/algorithm/selection-sort.md)
 - [insertion-sort](/algorithm/insertion-sort.md)
 - [bubble-sort](/algorithm/bubble-sort.md)
+
+## etc
+
+- [zero-based-half-open-convention](/etc/zero-based-half-open-convention.md)
