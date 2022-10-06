@@ -1,35 +1,35 @@
 # Spring Security Architecture
 
 - SecurityContextHolder
-  - SecurityContext 제공
-  - 기본적으로 ThreadLocal 사용
-  - Spring Security에서 인증한 대상에 대한 상세 정보를 저장
+    - SecurityContext 제공
+    - 기본적으로 ThreadLocal 사용
+    - Spring Security에서 인증한 대상에 대한 상세 정보를 저장
 - SecurityContext
-  - SecurityContextHolder로 접근
-  - 현재 인증한 사용자의 Authentication 제공
+    - SecurityContextHolder로 접근
+    - 현재 인증한 사용자의 Authentication 제공
 - Authentication
-  - Principal과 GrantedAuthority 제공
-  - 사용자가 제공한 인증용 credential이나 SecurityContext에 있는 현재 사용자의 credential 제공
-  - AuthenticationManager의 입력으로 사용
+    - Principal과 GrantedAuthority 제공
+    - 사용자가 제공한 인증용 credential이나 SecurityContext에 있는 현재 사용자의 credential 제공
+    - AuthenticationManager의 입력으로 사용
 - Principal
-  - `누구`에 해당하는 정보
-  - UserDetailsService 구현체의 loadUserByUsername method에서 return한 객체
+    - `누구`에 해당하는 정보
+    - UserDetailsService 구현체의 loadUserByUsername method에서 return한 객체
 - GrantedAuthority
-  - Authentication에서 접근 주체(Principal)에 부여한 권한 (i.e. role, scope)
-  - ROLE_USER, ROLE_ADMIN 등 Principal이 가지고 있는 `권한`을 나타냄
-  - 인증 이후 인가 및 권한 확인할 때 이 정보를 참조
+    - Authentication에서 접근 주체(Principal)에 부여한 권한 (i.e. role, scope)
+    - ROLE_USER, ROLE_ADMIN 등 Principal이 가지고 있는 `권한`을 나타냄
+    - 인증 이후 인가 및 권한 확인할 때 이 정보를 참조
 - AuthenticationManager
-  - Spring Security의 filter가 인증을 어떻게 수행할지를 정의하는 API
+    - Spring Security의 filter가 인증을 어떻게 수행할지를 정의하는 API
 - ProviderManager
-  - 가장 많이 사용하는 AuthenticationManager 구현체
+    - 가장 많이 사용하는 AuthenticationManager 구현체
 - AuthenticationProvider
-  - ProviderManager가 특정 인증 유형을 수행할 때 사용
+    - ProviderManager가 특정 인증 유형을 수행할 때 사용
 - AuthenticationEntryPoint
-  - Client에 credential을 요청할 때 사용 (i.e. 로그인 페이지로 redirect하거나 `WWW-Authenticate` Header를 전송하는 등)
+    - Client에 credential을 요청할 때 사용 (i.e. 로그인 페이지로 redirect하거나 `WWW-Authenticate` Header를 전송하는 등)
 - AbstractAuthenticationProcessingFilter
-  - 인증에 사용할 filter의 베이스
-  - filter를 잘 이해하면 여러 component를 조합해서 심도 있는 인증 flow 구성 가능
+    - 인증에 사용할 filter의 베이스
+    - filter를 잘 이해하면 여러 component를 조합해서 심도 있는 인증 flow 구성 가능
 - UserDetails
-  - 애플리케이션이 가지고 있는 유저 정보와 Spring Security가 사용하는 Authentication 객체 사이의 Adapter
+    - 애플리케이션이 가지고 있는 유저 정보와 Spring Security가 사용하는 Authentication 객체 사이의 Adapter
 - UserDetailsService
-  - 유저 정보를 UserDetails 타입으로 가져오는 DAO interface
+    - 유저 정보를 UserDetails 타입으로 가져오는 DAO interface

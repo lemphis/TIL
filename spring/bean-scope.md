@@ -42,6 +42,6 @@ public class Single {}
 `prototype`은 매번 새로운 인스턴스를 생성하여 Bean의 생명주기가 필요할 때 사용함
 
 이런 scope 특성들은 각각 사용하거나 prototype에서 singleton을 가지고 사용하는 것에는 문제가 없음  
-반대로 singleton에서 prototype을 가지고 있는 경우에는 의도한 것과 다른 결과를 낼 수 있음  
+반대로 singleton에서 prototype을 가지고 있는 경우에는 의도한 것과 다른 결과를 낼 수 있음
 
 이미 singleton으로 생성되는 시점에 prototype이 생성되어 들어오기 때문에 singleton 내부의 prototype을 호출하게 되면 매번 같은 값을 가져오게 됨  

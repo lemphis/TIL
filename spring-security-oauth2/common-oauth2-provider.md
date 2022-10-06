@@ -17,7 +17,8 @@ spring:
             client-secret: google-client-secret
 ```
 
-여기서는 client property가 자동으로 default 값으로 들어가는데, `registrationId(google)`가 `CommonOAuth2Provider`에 있는 `GOOGLE enum`과 일치하기 때문임(대소문자 구분 X)
+여기서는 client property가 자동으로 default 값으로 들어가는데, `registrationId(google)`가 `CommonOAuth2Provider`에 있는 `GOOGLE enum`과 일치하기
+때문임(대소문자 구분 X)
 
 `google-login`등 다른 registrationId를 지정할 때에도 provider property를 설정하면 해당하는 default 값이 자동으로 들어가게 할 수 있음
 
