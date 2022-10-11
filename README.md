@@ -23,53 +23,54 @@
 
 ## git
 
-- [comparing-workflows](/git/comparing-workflows.md)
-- [tag](/git/tag.md)
+- [comparing-workflows](git/comparing-workflows.md)
+- [tag](git/tag.md)
 
 ## https
 
-- [http-and-https](/https/http-and-https.md)
-- [ssl-handshake](/https/ssl-handshake.md)
+- [http-and-https](https/http-and-https.md)
+- [ssl-handshake](https/ssl-handshake.md)
 
 ## java
 
-- [equals-and-hashcode](/java/equals-and-hashcode.md)
-- [string-concat](/java/string-concat.md)
+- [equals-and-hashcode](java/equals-and-hashcode.md)
+- [string-concat](java/string-concat.md)
 
 ## jwt
 
-- [jwt-structure](/jwt/jwt-structure.md)
+- [jwt-structure](jwt/jwt-structure.md)
 
 ## os
 
-- [signal](/os/signal.md)
+- [signal](os/signal.md)
 
 ## spring
 
-- [spring-aop](/spring/spring-aop.md)
-- [bean-scope](/spring/bean-scope.md)
+- [spring-aop](spring/spring-aop.md)
+- [bean-scope](spring/bean-scope.md)
 
 ## spring-security
 
-- [spring-security-architecture](/spring-security/spring-security-architecture.md)
-- [security-context-holder](/spring-security/security-context-holder.md)
-- [authentication](/spring-security/authentication.md)
+- [spring-security-architecture](spring-security/spring-security-architecture.md)
+- [security-context-holder](spring-security/security-context-holder.md)
+- [authentication](spring-security/authentication.md)
 
 ## spring-security-oauth2
 
-- [common-oauth2-provider](/spring-security-oauth2/common-oauth2-provider.md)
-- [oauth2-client-auto-configuration](/spring-security-oauth2/oauth2-client-auto-configuration.md)
+- [common-oauth2-provider](spring-security-oauth2/common-oauth2-provider.md)
+- [oauth2-client-auto-configuration](spring-security-oauth2/oauth2-client-auto-configuration.md)
 
 ## algorithm
 
-- [selection-sort](/algorithm/selection-sort.md)
-- [insertion-sort](/algorithm/insertion-sort.md)
-- [bubble-sort](/algorithm/bubble-sort.md)
+- [selection-sort](algorithm/selection-sort.md)
+- [insertion-sort](algorithm/insertion-sort.md)
+- [bubble-sort](algorithm/bubble-sort.md)
 
 ## reactive
 
-- [before-reactive-streams](/reactive/before-reactive-streams.md)
+- [before-reactive-streams](reactive/before-reactive-streams.md)
 
 ## etc
 
-- [zero-based-half-open-convention](/etc/zero-based-half-open-convention.md)
+- [zero-based-half-open-convention](etc/zero-based-half-open-convention.md)
+- [YAGNI](etc/yagni.md)
