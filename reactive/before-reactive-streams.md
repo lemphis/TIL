@@ -9,7 +9,7 @@
 ## Iterable
 
 ```java
-class demo {
+class Demo {
 
 	public static void main(String[] args) {
 		Iterable<Integer> iterable = () -> new Iterator<Integer>() {
@@ -38,7 +38,7 @@ class demo {
 ## Observable (Java 9부터 deprecated, Reactive Streams로 대체)
 
 ```java
-class demo {
+class Demo {
 
 	static class IntObservable extends Observable implements Runnable {
 		@Override
