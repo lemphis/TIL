@@ -76,3 +76,4 @@
 - [zero-based-half-open-convention](etc/zero-based-half-open-convention.md)
 - [YAGNI](etc/yagni.md)
 - [edge-trigger and level-trigger](etc/edge-trigger-and-level-trigger.md)
+- [module and component](etc/module-and-component.md)
