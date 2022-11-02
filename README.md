@@ -8,6 +8,7 @@
 
 - [TIL](#til)
     - [git](#git)
+    - [http](#http)
     - [https](#https)
     - [java](#java)
     - [jwt](#jwt)
@@ -25,6 +26,10 @@
 
 - [comparing-workflows](git/comparing-workflows.md)
 - [tag](git/tag.md)
+
+## http
+
+- [http-method-idempotent](http/http-method-idempotent.md)
 
 ## https
 
