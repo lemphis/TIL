@@ -41,6 +41,7 @@
 
 - [equals-and-hashcode](java/equals-and-hashcode.md)
 - [string-concat](java/string-concat.md)
+- [HashMap](java/hashmap.md)
 
 ## jwt
 
