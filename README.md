@@ -19,6 +19,7 @@
     - [algorithm](#algorithm)
     - [reactive](#reactive)
     - [database](#database)
+    - [infrastructure](#infrastructure)
     - [etc](#etc)
 
 ---
@@ -81,6 +82,10 @@
 ## database
 
 - [ACID](database/acid.md)
+
+## infrastructure
+
+- [SPOF](infrastructure/spof.md)
 
 ## etc
 
