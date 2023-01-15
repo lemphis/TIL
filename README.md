@@ -20,6 +20,7 @@
     - [reactive](#reactive)
     - [database](#database)
     - [infrastructure](#infrastructure)
+    - [jpa](#jpa)
     - [etc](#etc)
 
 ---
@@ -87,6 +88,10 @@
 ## infrastructure
 
 - [SPOF](infrastructure/spof.md)
+
+## jpa
+
+- [composite key mapping](jpa/composite-key-mapping.md)
 
 ## etc
 
