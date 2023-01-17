@@ -1,0 +1,34 @@
+# Domain Language of Batch
+
+1. Job
+    - 전체 배치 프로세스를 캡슐화하는 엔터티
+    - 전체 계층 구조의 최상위
+2. JobInstance
+    - 논리적 작업 실행의 개념
+    - Job을 실행시키게 되면 하나의 JobInstance가 생성
+3. JobParameters
+    - JobInstance를 구분하는 단위
+    - String, Double, Long, Date 4가지 형식 지원
+4. JobExecution
+    - JobInstance 실행 시도에 대한 객체
+    - JobInstance 실행에 대한 상태, 시작 시간, 종료 시간, 생성 시간 등의 정보를 담고 있음
+5. Step
+    - 배치 작업의 독립적이고 순차적인 단계를 캡슐화하는 도메인 개체
+    - 모든 Job은 하나 이상의 step으로 구성
+    - 실제 일괄 처리를 정의하고 제어하는 데 필요한 모든 정보가 들어 있음
+6. StepExecution
+    - Step 실행 시도에 대한 객체
+    - JobExecution에 저장되는 정보 외에 read 수, write 수, commit 수, skip 수 등의 정보들도 저장
+7. ExecutionContext
+    - Job에서 데이터를 공유할 수 있는 데이터 저장소
+    - Step간 Data 공유가 가능하며 Job 실패 시 ExecutionContext를 통하여 마지막 실행 값을 가져와 재시작 가능
+8. JobRepository
+    - JobLauncher, Job, Step 인터페이스의 구현체에게 CRUD 기능 제공
+9. JobLauncher
+    - JobParameters를 이용하여 Job을 실행시키는 역할을 하는 인터페이스
+10. ItemReader
+    - Item을 읽어오는 인터페이스
+11. ItemWriter
+    - 처리된 data를 write 할 때 사용
+12. ItemProcessor
+    - Item의 비지니스 로직 처리 담당
