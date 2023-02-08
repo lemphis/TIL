@@ -89,6 +89,7 @@
 
 - [ACID](database/acid.md)
 - [Identifying Relationship & Non-Identifying Relationship](database/identifying-relationship-and-non-identifying-relationship.md)
+- [lock](database/lock.md)
 
 ## infrastructure
 
