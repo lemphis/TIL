@@ -22,6 +22,7 @@
     - [database](#database)
     - [infrastructure](#infrastructure)
     - [jpa](#jpa)
+    - [elasticsearch](#elasticsearch)
     - [docker](#docker)
     - [etc](#etc)
 
@@ -99,6 +100,10 @@
 ## jpa
 
 - [composite key mapping](jpa/composite-key-mapping.md)
+
+## elasticsearch
+
+- [elasticsearch](elasticsearch/elasticsearch)
 
 ## docker
 
