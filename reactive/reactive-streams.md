@@ -5,7 +5,6 @@ Reactive Streams의 목적은 non-blocking backpressure를 이용하여 비동�
 
 ```java
 class Demo {
-
 	public static void main(String[] args) {
 		List<Integer> items = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
 		ExecutorService executorService = Executors.newSingleThreadExecutor();
@@ -66,6 +65,5 @@ class Demo {
 
 		publisher.subscribe(subscriber);
 	}
-
 }
 ```

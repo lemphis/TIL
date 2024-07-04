@@ -10,7 +10,6 @@
 
 ```java
 class Demo {
-
 	public static void main(String[] args) {
 		Iterable<Integer> iterable = () -> new Iterator<Integer>() {
 			int i = 0;
@@ -31,7 +30,6 @@ class Demo {
 			System.out.println(i);
 		}
 	}
-
 }
 ```
 
@@ -39,7 +37,6 @@ class Demo {
 
 ```java
 class Demo {
-
 	static class IntObservable extends Observable implements Runnable {
 		@Override
 		public void run() {
@@ -57,7 +54,6 @@ class Demo {
 
 		observable.run();
 	}
-
 }
 ```
 

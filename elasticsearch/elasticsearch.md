@@ -1,6 +1,6 @@
 # Elasticsearch
 
-일래스틱서치(Elasticsearch)는 루씬 기반의 검색 엔진이다.
+일래스틱서치(Elasticsearch)는 루씬 기반의 검색 엔진이다.  
 Elasticsearch는 모든 데이터를 색인하여 저장하고 검색, 집계 등을 수행하며 결과를 클라이언트 또는 다른 프로그램으로 전달하여 동작하게 한다.
 
 Elasticsearch의 가장 큰 특징 중 하나는 실시간(real-time) 분석 시스템이다.  

@@ -7,24 +7,25 @@
 ## Categories
 
 - [TIL](#til)
-    - [git](#git)
-    - [http](#http)
-    - [https](#https)
-    - [java](#java)
-    - [jwt](#jwt)
-    - [os](#os)
-    - [spring](#spring)
-    - [spring-security](#spring-security)
-    - [spring-security-oauth2](#spring-security-oauth2)
-    - [spring-batch](#spring-batch)
-    - [algorithm](#algorithm)
-    - [reactive](#reactive)
-    - [database](#database)
-    - [infrastructure](#infrastructure)
-    - [jpa](#jpa)
-    - [elasticsearch](#elasticsearch)
-    - [docker](#docker)
-    - [etc](#etc)
+  - [Categories](#categories)
+  - [git](#git)
+  - [http](#http)
+  - [https](#https)
+  - [java](#java)
+  - [jwt](#jwt)
+  - [os](#os)
+  - [spring](#spring)
+  - [spring-security](#spring-security)
+  - [spring-security-oauth2](#spring-security-oauth2)
+  - [spring-batch](#spring-batch)
+  - [algorithm](#algorithm)
+  - [reactive](#reactive)
+  - [database](#database)
+  - [infrastructure](#infrastructure)
+  - [jpa](#jpa)
+  - [elasticsearch](#elasticsearch)
+  - [docker](#docker)
+  - [etc](#etc)
 
 ---
 
@@ -81,6 +82,7 @@
 - [selection-sort](algorithm/selection-sort.md)
 - [insertion-sort](algorithm/insertion-sort.md)
 - [bubble-sort](algorithm/bubble-sort.md)
+- [Boyer-Moore Majority Vote Algorithm](algorithm/boyer-moore-majority-vote-algorithm.md)
 
 ## reactive
 

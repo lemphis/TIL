@@ -10,7 +10,7 @@ String s = "a" + "b" + "c";
 String s = "abc";
 ```
 
-### 기존 코드
+## 기존 코드
 
 ```java
 public class StringTest {
@@ -29,7 +29,7 @@ public class StringTest {
 }
 ```
 
-### JDK 1.4로 complie
+## JDK 1.4로 complie
 
 ```java
 public class StringTest {
@@ -54,7 +54,7 @@ public class StringTest {
 }
 ```
 
-### JDK 1.5로 complie
+## JDK 1.5로 complie
 
 ```java
 public class StringTest {

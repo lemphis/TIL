@@ -11,8 +11,8 @@
   ~~~~
 
 - pattern 사용하여 tag 조회
-    - 단순히 모든 tag 목록을 확인하기 위해 git tag 명령을 실행했을 때 -l 또는 --list 옵션이 적용된 것과 동일한 결과가 출력됨
-    - 하지만 wildcard를 사용하여 tag 목록을 검색하는 경우에는 반드시 -l 또는 --list 옵션을 같이 써 줘야 함
+  - 단순히 모든 tag 목록을 확인하기 위해 git tag 명령을 실행했을 때 -l 또는 --list 옵션이 적용된 것과 동일한 결과가 출력됨
+  - 하지만 wildcard를 사용하여 tag 목록을 검색하는 경우에는 반드시 -l 또는 --list 옵션을 같이 써 줘야 함
 
       ~~~shell
       $ git tag -l 'v1.1.*'
@@ -88,26 +88,26 @@
            ~~~
 
 - tag 원격 저장소에 올리기
-    - 특정 tag 지정
+  - 특정 tag 지정
 
       ~~~shell
       git push origin 1.0.0
       ~~~
 
-    - 모든 tag
+  - 모든 tag
 
       ~~~shell
       git push origin --tags
       ~~~
 
 - tag 삭제
-    - local tag (-d 옵션 사용)
+  - local tag (-d 옵션 사용)
 
       ~~~shell
       git tag -d 1.0.0
       ~~~
 
-    - remote tag (':' 사용)
+  - remote tag (':' 사용)
 
       ~~~shell
       git push origin :1.0.0

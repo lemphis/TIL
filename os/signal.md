@@ -1,18 +1,18 @@
 # Signal
 
 - signal이란?
-    - 사전적인 뜻은 '신호'라는 의미로 linux에서는 process끼리 서로 통신할 때 사용
-    - UNIX, UNIX 계열, POSIX 호환 운영 체제에 쓰이는 제한된 형태의 프로세스 간 통신
-    - 다른 process나 동일 process 내의 특정 thread로 전달되는 비동기식 통보
-    - linux에서 사용하는 signal
-        - interrupt key를 사용하여 발생시키는 signal
-        - process가 발생시키는 signal
-        - hardware가 발생시키는 signal
-        - 등등 매우 다양함
+  - 사전적인 뜻은 '신호'라는 의미로 linux에서는 process끼리 서로 통신할 때 사용
+  - UNIX, UNIX 계열, POSIX 호환 운영 체제에 쓰이는 제한된 형태의 프로세스 간 통신
+  - 다른 process나 동일 process 내의 특정 thread로 전달되는 비동기식 통보
+  - linux에서 사용하는 signal
+    - interrupt key를 사용하여 발생시키는 signal
+    - process가 발생시키는 signal
+    - hardware가 발생시키는 signal
+    - 등등 매우 다양함
 - signal in OS
-    - 인간과 OS 사이에는 응용프로그램이 존재함
-    - 물론 메세지로 데이터 통신을 할 수도 있겠지만 굳이 복잡한 통신이 필요하지 않다면 불필요함
-    - 때문에 OS는 여러 signal을 지원하여 단순한 통신을 가능하게 하였음
+  - 인간과 OS 사이에는 응용프로그램이 존재함
+  - 물론 메세지로 데이터 통신을 할 수도 있겠지만 굳이 복잡한 통신이 필요하지 않다면 불필요함
+  - 때문에 OS는 여러 signal을 지원하여 단순한 통신을 가능하게 하였음
 - signal의 종류  
     | signal number | 값 | 의미 | 기본값 |
     |:---:|:---:|:---:|:---:|
@@ -33,7 +33,7 @@
     | 20 | `SIGTSTP(TSTP)` | 실행 정지 후 다시 실행을 계속하기 위해 대기시키는 signal \\ **CTRL + Z** 입력 시에 보내지는 signal \\ SIGCONT로 재실행 가능 | 중지 |
     | 29 | `SIGIO(IO)` | 비동기 IO가 발생했을 경우 발생하는 signal(I/O not possible) | 종료 |  
 - example code
-    - SIGINT
+  - SIGINT
 
       ~~~c
       #include <stdio.h>
@@ -53,7 +53,7 @@
       }
       ~~~
 
-    - SIGTERM
+  - SIGTERM
 
       ~~~c
       #include <stdio.h>
